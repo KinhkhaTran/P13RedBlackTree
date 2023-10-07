@@ -1,3 +1,10 @@
+// --== CS400 Fall 2023 File Header Information ==--
+// Name: Kinhkha Tran
+// Email: Ktran33@wisc.edu
+// Group: <your group's name: a letter and two digits>
+// TA: <name of your team's ta>
+// Lecturer: Gary Dahl
+// Notes to Grader: <optional extra notes>
 import java.util.LinkedList;
 import java.util.Stack;
 
@@ -8,7 +15,7 @@ import java.util.Stack;
  * tree as part of project 1 by modifying its insert functionality.
  * In week 0 of project 1, we will start this process by implementing tree rotations.
  */
-public class BinarySearchTree<T extends Comparable<T>> implements SortedCollectionInterface<T> {
+ class BinarySearchTree<T extends Comparable<T>> implements SortedCollectionInterface<T> {
 
     /**
      * This class represents a node holding a single value within a binary tree.
